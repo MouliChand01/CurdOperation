@@ -1,0 +1,7 @@
+<form #formdata="ngForm" (ngSubmit)="senddata(formdata.value)">
+    <!-- <input type="number" placeholder="id" name="id" ngModel> -->
+    <input type="text" placeholder="name" name="name" ngModel>
+    <input type="number" placeholder="age" name="age" ngModel>
+    <input type="text" placeholder="qul" name="qul" ngModel>
+    <button type="submit">submitdata</button>
+</form>

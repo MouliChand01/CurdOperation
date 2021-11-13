@@ -1,0 +1,15 @@
+th,td {
+  text-align: center;
+}
+h1 {
+  color: aqua;
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+}
+#btn {
+  margin-left: 45%;
+}
+span {
+  margin-left: 40%;
+}
